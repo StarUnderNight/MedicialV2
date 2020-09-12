@@ -21,6 +21,7 @@ public class BufferQueue {
             bufList.add(data);
             return false;
         }
+
         bufList.add(data);
         return true;
     }
